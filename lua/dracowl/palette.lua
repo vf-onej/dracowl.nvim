@@ -23,6 +23,8 @@
 ---@field nontext string
 ---@field white string
 ---@field black string
+---@field full_green string
+---@field dull_gray string
 return {
    bg = "#282A36",
    fg = "#F8F8F2",
@@ -48,4 +50,6 @@ return {
    nontext = "#3B4048",
    white = "#ABB2BF",
    black = "#191A21",
+   full_green = "#00ff00",
+   dull_gray = "#333333",
 }

@@ -75,13 +75,13 @@ local function setup(configs)
       Underlined = { fg = colors.cyan, underline = true },
 
       Cursor = { reverse = true },
-      CursorLineNr = { fg = colors.fg, bold = true },
+      CursorLineNr = { fg = colors.full_green, bold = true },
 
       SignColumn = { bg = colors.bg },
 
       Conceal = { fg = colors.comment },
       CursorColumn = { bg = colors.black },
-      CursorLine = { bg = colors.selection },
+      CursorLine = { bg = colors.black },
       ColorColumn = { bg = colors.selection },
 
       StatusLine = { fg = colors.white, bg = colors.black },
@@ -102,7 +102,7 @@ local function setup(configs)
       FoldColumn = {},
       Search = { fg = colors.black, bg = colors.orange },
       IncSearch = { fg = colors.orange, bg = colors.comment },
-      LineNr = { fg = colors.comment },
+      LineNr = { fg = colors.dull_gray },
       MatchParen = { fg = colors.fg, underline = true },
       NonText = { fg = colors.nontext },
       Pmenu = { fg = colors.white, bg = colors.menu },
